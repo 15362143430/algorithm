@@ -24,7 +24,7 @@
  * @param {string} s
  * @return {boolean}
  */
-// 第一次遍历看pattern一个字母是否对应一个单词，第二次遍历看一个字母是否对应一个字母
+// 第一次遍历看pattern一个字母是否对应一个单词，第二次遍历看一个单词是否对应一个字母
 var wordPattern = function(pattern, s) {
     const strArr = s.split(' ')
     if (pattern.length !== strArr.length) return false
